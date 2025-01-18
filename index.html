@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <h2>Correcting Errors</h2>
+        <h4>Helping Tinu correct a typo</h4>
+
+        <p id="search"></p>
+        <p id="replace"></p>
+
+        <script>
+        var str="Hey, what are you"
+            var search_position=str.search("what");
+            var txt=str.replace("what","where");
+            document.getElementById("search").innerHTML=search_position;
+            document.getElementById("replace").innerHTML=txt;
+        </script>
+    </body>
+</html>
